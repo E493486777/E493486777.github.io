@@ -118,7 +118,7 @@ window.onscroll=function(){
 	}
 	if(top>1){
 		playScreenAnimateDone('.screen-1');
-		switchNavItemsActive(1);
+		switchNavItemsActive(0);
 	}
 	if(top>800*1){
 		playScreenAnimateDone('.screen-2');
