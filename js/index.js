@@ -118,23 +118,23 @@ window.onscroll=function(){
 	}
 	if(top>1){
 		playScreenAnimateDone('.screen-1');
-		switchNavItemsActive(0);
+		switchNavItemsActive(1);
 	}
 	if(top>800*1){
 		playScreenAnimateDone('.screen-2');
-		switchNavItemsActive(1);
+		switchNavItemsActive(2);
 	}
 	if(top>800*2){
 		playScreenAnimateDone('.screen-3');
-		switchNavItemsActive(2);
+		switchNavItemsActive(3);
 	}
 	if(top>800*3){
 		playScreenAnimateDone('.screen-4');
-		switchNavItemsActive(3);
+		switchNavItemsActive(4);
 	}
 	if(top>800*4){
 		playScreenAnimateDone('.screen-5')
-		switchNavItemsActive(4);
+		switchNavItemsActive(5);
 	}
 }
 //第三步，双向定位
