@@ -215,7 +215,7 @@
 }
 /*导航条_status_back 样式*/
 .header{
-	transition: all 1s
+	/*transition: all 1s;*/
 }
 .header_status_back{
 	background-color: rgba(0,0,0,0.5);

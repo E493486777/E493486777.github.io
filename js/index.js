@@ -1,4 +1,4 @@
-//获取元素
+-100//获取元素
 var getElem=function(selector){
 	return document.querySelector(selector);
 }
@@ -120,19 +120,19 @@ window.onscroll=function(){
 		playScreenAnimateDone('.screen-1');
 		switchNavItemsActive(0);
 	}
-	if(top>800*1){
+	if(top>800*1-100){
 		playScreenAnimateDone('.screen-2');
 		switchNavItemsActive(1);
 	}
-	if(top>800*2){
+	if(top>800*2-100){
 		playScreenAnimateDone('.screen-3');
 		switchNavItemsActive(2);
 	}
-	if(top>800*3){
+	if(top>800*3-100){
 		playScreenAnimateDone('.screen-4');
 		switchNavItemsActive(3);
 	}
-	if(top>800*4){
+	if(top>800*4-100){
 		playScreenAnimateDone('.screen-5')
 		switchNavItemsActive(4);
 	}
