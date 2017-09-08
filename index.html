@@ -1,14 +1,233 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./src/css/pc.css">
-    <link rel="stylesheet" href="./src/css/mobile.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>这一次，我们想要冠军！</title>
+	<meta name="keywords" content="英雄联盟,游戏资讯,Array,电竞虎,原创">
+	<meta name="description" content="2017年英雄联盟限定版冰淇淋月饼载誉归来，这是为中国玩家带来的诚意满满的礼物。-电竞虎">
+	<link rel="stylesheet" href="http://www.dianjinghu.com/static/frontend/common/css/style.css" />
+	<link rel="stylesheet" href="http://www.dianjinghu.com/static/frontend/lol/css/footer.css" />
+	<link rel="stylesheet" href="http://www.dianjinghu.com/static/frontend/css/head-footer.min.css">
+	<link rel="stylesheet" href="http://www.dianjinghu.com/static/frontend/css/content.min.css?v=20170907202">
+	<link rel="stylesheet" href="http://www.dianjinghu.com/static/frontend/css/vui.min.css?v=20170907202">
+	<input type="hidden" id='game_id' gameId="4">
+	<input type="hidden" id='is_globe' globeId="">
+	<input type="hidden" id='category_id' categoryId="1">
+	<input type="hidden" id='video_id' gameId="">
 </head>
-<body>
-    <div id="mainContainer">
-    </div>
-    <script src="./src/bundle.js"></script>
+
+<body style="background: url(http://lol.dianjinghu.com/static/upload/news/lol/beitu/2017/0717/1500270904.jpg) top 40px center no-repeat #191919;" class="lol">
+
+	<div class="nav_box" style="margin:120px">
+		<h2>电竞虎英雄联盟</h2>
+		<div class="nav_a">
+			<a href="#"><i>首页</i></a>
+			<a href="#" class="cur"> <i>资讯</i></a>
+			<a href="#" class=""><i>视频</i></a>
+			<a href="#"><i>攻略</i></a>
+			<a target="_blank" href="http://lol.dianjinghu.com/LolAllStar/"><i>赛事</i></a>
+		</div>
+	</div>
+	<div class="three-head" id="three-head">
+
+		<div class="w1200">
+			<h1 class="three-h1"><a href="http://www.dianjinghu.com">电竞虎-最前线、最娱乐的电竞游戏门户，电竞虎，电子竞技，电子竞技游戏，DOTA2，英雄联盟，守望先锋，电竞赛事，游戏资讯，游戏攻略 ，游戏直播，电竞虎是最前线、最娱乐的电竞门户网,是国内最优秀的游戏媒体之一。电竞虎目前拥有守望先锋（OW）、英雄联盟（LOL）、刀塔2（DOTA2）、炉石传说、魔兽世界、穿越火线（CF）、地下城与勇士(DNF)等多款热门游戏及各类手游的最新游戏资讯八卦新闻。</a></h1>
+			<div class="three-nav">
+				<div class="three-nav1">
+					<a target="_blank" href="http://www.dianjinghu.com">首页</a>
+					<a target="_blank" href="http://lol.dianjinghu.com/">英雄联盟</a>
+					<a target="_blank" href="http://globe.dianjinghu.com">全球联盟视窗</a>
+					<a target="_blank" href="http://pvp.dianjinghu.com">王者荣耀</a>
+					<a target="_blank" href="http://dota2.dianjinghu.com">DOTA2</a>
+					<a target="_blank" href="http://www.dianjinghu.com/game/csgo">CSGO</a>
+					<a target="_blank" href="http://ow.dianjinghu.com">守望先锋</a>
+					<a target="_blank" href="http://www.dianjinghu.com/game/ls">炉石传说</a>
+					<a target="_blank" href="http://www.dianjinghu.com/game/cf">穿越火线</a>
+					<a target="_blank" href="http://www.dianjinghu.com/game/dnf">地下城与勇士</a>
+
+				</div>
+				<div class="three-nav2">
+					<a target="_blank" href="http://www.dianjinghu.com/news" class="three-h three-h-news">
+                    <i></i>游戏资讯<span class="three-gcra"><i></i>游戏资讯</span>
+                </a>
+					<a target="_blank" href="http://www.dianjinghu.com/video/" class="three-h three-h-video">
+                    <i></i>游戏视频<span class="three-gcra"><i></i>游戏视频</span>
+                </a>
+					<a target="_blank" href="http://www.dianjinghu.com/tv/" class="three-h three-h-live">
+                    <i></i>直播导航<span class="three-gcra"><i></i>直播导航</span>
+                </a>
+					<a target="_blank" href="http://star.dianjinghu.com" class="three-h three-h-star">
+                    <i></i>星迹主播<span class="three-gcra"><i></i>星迹主播</span>
+                </a>
+					<a target="_blank" href="http://www.dianjinghu.com/download.html" class="three-h three-h-app three-happ-cur" target="_blank">
+                    <i></i>电竞虎APP<span class="three-gcra"><i></i>电竞虎APP</span>
+                    <div class="three-down-ma">
+                        <img src="http://www.dianjinghu.com/static/frontend/images/head-footer/app-down.jpg">
+                        扫码立即下载到手机
+                    </div>
+                </a>|
+				</div>
+			</div>
+		</div>
+	</div>
+	</style>
+
+
+	<div class="container">
+
+		<div class="breadcrumb">
+			<a href="javascript:void(0);" style="display:block;margin-left:144px">正文</a>
+		</div>
+	</div>
+
+	<div class="container oh pb100" style="margin:0 auto">
+		<div class="article-left" id="news_detail" data-title="召唤师 今年的英雄联盟中秋月饼你吃了吗？" data-url="http://lol.dianjinghu.com/news/41477.html" style="margin-left:144px">
+			<div class="article-top" style="position: relative;padding: 38px 36px 10px;">
+				<div class="c-title">
+					<h1>这一次 我们想要冠军！</h1>
+					<p class="time">2017年09月08日 10:02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来源：应聘人 </p>
+				</div>
+				<div class="new_conts">
+					<p>9月3日，WE战队3：2战胜了IG战队，拿到了LPL赛区进入S7的最后一张门票，与RNG、EDG一同征战世界总决赛。赛场也首次坐落地于中国，这无疑会让粉丝们激动万分，全球各地的高手云集在这里，又能碰撞出怎样的火花，相信本土作战的他们也会将最精彩的战役奉献给大家。</p>
+					<p><img class="lazy" src="http://imgsrc.baidu.com/forum/pic/item/3c0157c2d5628535a60b9bbd9aef76c6a6ef6310.jpg" style="display:block; height:403px; margin-left:auto; margin-right:auto; width:700px" /></p>
+
+					<p style="text-align:center">图1：2017全球总决赛图</p>
+
+					<p>让我们再介绍下这几支LPL战队吧</p>
+					<p>首先是WE，S5 春季赛季后赛第一轮，WE2:3EDG，S6 春季赛季后赛半决赛，WE2:3RNG，S6 夏季赛季后赛半决赛，WE2:3EDG（这场赢下则进S6），S6 S赛预选赛最后一轮，WE2:3IM（这场赢下则进S6），S7 夏季赛季后赛半决赛，WE2:3RNG（这场赢下则起码二号种子直接进S7），S7 夏季赛季后赛季军战，WE2:3IG（这场赢下则有可能直接进S7[需rng夺冠]）。WE每次的比赛都是三过S而不入，这样的结果都让WE的粉丝操碎了心。而如今，五年磨一剑，终于再次进入S系列赛，恭喜WE！</p>
+					<p><img class="lazy" src="img/图片1.png" style="display:block; height:403px; margin-left:auto; margin-right:auto; width:700px" /></p>
+
+					<p style="text-align:center">图2：WE</p>
+					<p>再来是RNG，这支战队表现一直都是很稳定，小虎状态非常好，Mlxg的打野也一直很稳定，可以食草，可以食肉，为团队做出贡献，下路Uzi也不再表现出以往的莽撞冲动，更倾向于为团队贡献。四线可以说没有特别的短板，五位选手都是LPL顶尖的水平，配合相当默契，硬件配置也较为豪华，剩下可能需要提升的也就是软件部分，即逆风局的能力与中后期的决策。</p>
+					<p><img class="lazy" src="img/图片2.png" style="display:block; height:403px; margin-left:auto; margin-right:auto; width:700px" /></p>
+
+					<p style="text-align:center">图3：RNG</p>
+
+					<p>最后是EDG，可以看出目前的核心在于厂长和Scout，厂长自然不必多说，国内数一数二的打野，意识方面一直很强。韩援Scout也发挥了他应有的价值，下路Meiko的个人实力在LPL的辅助里面也可以排前几，不论是开团还是游走，保护等等。但是也能感觉到有一些弱势，iboy上场太匆忙，不像以往的青训先去低级联赛打一年，仍然能感觉到队伍还有待磨合。即使如此，我们也依然期待EDG在S赛上给我们带来出彩的表现。</p>
+					<p><img class="lazy" src="img/图片3.png" style="display:block; height:403px; margin-left:auto; margin-right:auto; width:700px" /></p>
+
+					<p style="text-align:center">图4：EDG</p>
+
+					<p>虽说LPL在观众们看来似乎已经大不如前，deft和pawn双双离开EDG，WE依然在找状态，IG新人仍在磨合，UZI冠军的“诅咒”，一切都仿佛在告诉我们LPL危在旦夕？但是那有怎样？洲际赛上，以前总是笑EDG永不团灭，这次厂长毅然丝血反身，依然永不团灭。Meiko的闪现开团，小学弟的单人灭龙，957的天崩地裂，兮夜的纵身入场，虎掌门的峡谷轰炸，香锅的中亚沙漏，letme最后的tp夺冠，娃娃的我们是冠军！那一夜，LPL找回了当年的神勇与无坚不摧。如果真爱有颜色，那么一定是中国红！</p>
+					<p><img class="lazy" src="https://pic4.zhimg.com/v2-664ba6f5ac5ef1784f49589aa386e737_b.jpg" style="display:block; height:466px; margin-left:auto; margin-right:auto; width:700px" /></p>
+					<p style="text-align:center">　　图5：洲际赛颁奖仪式</p>
+
+					<p>无论如何，我们都衷心希望LPL能够在舞台上笑到最后。</p>
+				</div>
+				<div class="key-share oh">
+					<div class="keyword left">
+						<span>关键词：</span>
+						<a href="http://www.dianjinghu.com/news/tag/英雄联盟" target="_blank">英雄联盟</a>
+						<a href="http://www.dianjinghu.com/news/tag/月饼" target="_blank">月饼</a>
+
+					</div>
+					<div class="right">
+						<dl class="share right">
+							<dt>分享到：</dt>
+							<dd><a href="javascript:;" class="weixin" data-url="http://lol.dianjinghu.com/news/41477.html"></a></dd>
+							<dd><a href="javascript:;" class="weibo"></a></dd>
+							<dd><a href="javascript:;" class="qzone"></a></dd>
+							<dd><a href="javascript:;" class="qq"></a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="article-bottom">
+				<h2 class="panel-title">相关资讯<a href="" class="move">+more</a></h2>
+				<div class="media-sm-box">
+					<a target="_blank" href="/news/41485.html?fromnewsid=41477" class="media-sm">
+
+						<div class="bg">
+							<img class="lazy" data-original="http://static1.dianjinghu.com/static/upload/news/2017/0907/1504779808.jpg" alt="Khan的AMA整理：离世界第一上单又近了一步">
+							<div class="media-right">
+								<h4>Khan的AMA整理：离世界第一上单又近了一步</h4>
+								<div class="cat-all">
+									<span class="cat">LZ</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">Khan</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">问答</span>&nbsp;&nbsp;&nbsp;
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a target="_blank" href="/news/41484.html?fromnewsid=41477" class="media-sm">
+
+						<div class="bg">
+							<img class="lazy" data-original="http://static2.dianjinghu.com/static/upload/news/2017/0907/1504779711.jpg" alt="JT战队采访：胜率高的ADC都比较好上分">
+							<div class="media-right">
+								<h4>JT战队采访：胜率高的ADC都比较好上分</h4>
+								<div class="cat-all">
+									<span class="cat">LMS</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">JT</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">采访</span>&nbsp;&nbsp;&nbsp;
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a target="_blank" href="/news/41483.html?fromnewsid=41477" class="media-sm">
+
+						<div class="bg">
+							<img class="lazy" data-original="http://static1.dianjinghu.com/static/upload/news/2017/0907/1504779269.jpg" alt="LZ中单BDD有问必答：非韩战队EDG最具威胁">
+							<div class="media-right">
+								<h4>LZ中单BDD有问必答：非韩战队EDG最具威胁</h4>
+								<div class="cat-all">
+									<span class="cat">LCK</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">BDD</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">有问必答</span>&nbsp;&nbsp;&nbsp;
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a target="_blank" href="/news/41482.html?fromnewsid=41477" class="media-sm">
+
+						<div class="bg">
+							<img class="lazy" data-original="http://static1.dianjinghu.com/static/upload/news/2017/0907/1504779060.jpg" alt="官方公布星之守护者背景故事 — 星陨">
+							<div class="media-right">
+								<h4>官方公布星之守护者背景故事 — 星陨</h4>
+								<div class="cat-all">
+									<span class="cat">星陨</span>&nbsp;&nbs;p&nbsp;
+									<span class="cat">星之守护者</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">背景故事</span>&nbsp;&nbsp;&nbsp;
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a target="_blank" href="/news/41481.html?fromnewsid=41477" class="media-sm">
+
+						<div class="bg">
+							<img class="lazy" data-original="http://static2.dianjinghu.com/static/upload/news/2017/0907/1504778760.jpg" alt="时隔八天，WE创始人发表长文诉说心路历程">
+							<div class="media-right">
+								<h4>时隔八天，WE创始人发表长文诉说心路历程</h4>
+								<div class="cat-all">
+									<span class="cat">WE</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">Zax</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">长文</span>&nbsp;&nbsp;&nbsp;
+								</div>
+							</div>
+						</div>
+					</a>
+
+					<a target="_blank" href="/news/41480.html?fromnewsid=41477" class="media-sm">
+
+						<div class="bg">
+							<img class="lazy" data-original="http://static1.dianjinghu.com/static/upload/news/2017/0907/1504778079.jpg" alt="S7中值得LPL警惕的上单选手们">
+							<div class="media-right">
+								<h4>S7中值得LPL警惕的上单选手们</h4>
+								<div class="cat-all">
+									<span class="cat">S7</span>&nbsp;&nbsp;&nbsp;
+									<span class="cat">上单</span>&nbsp;&nbsp;&nbsp;
+								</div>
+							</div>
+						</div>
+					</a>
+
+
+				</div>
+			</div>
 </body>
-<html>
+
+</html>
